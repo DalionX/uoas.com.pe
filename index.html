@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fundación Raíces | Asistencia social</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#inicio" class="brand">Fundación Raíces</a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#inicio">Inicio</a>
+        <a href="#mision">Nosotros</a>
+        <div class="has-submenu">
+          <a href="#programas">Sedes <i class="fa-solid fa-chevron-down submenu-caret"></i></a>
+          <div class="submenu">
+            <a href="#programas">Escuela Hogar de Niñas</a>
+            <a href="#programas">Escuela Hogar de Niños</a>
+            <a href="#programas">Hogar Transitorio</a>
+            <a href="#programas">Cuna Jardín</a>
+            <a href="#programas">Centro de Atención Integral</a>
+          </div>
+        </div>
+        <a href="#impacto">Impacto</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="sedes-carousel" aria-label="Nuestras sedes">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="carousel-slide is-active">
+          <span class="carousel-eyebrow">Escuela Hogar de Niñas</span>
+          <a href="#programas" class="carousel-link">Ver más ...</a>
+        </div>
+        <div class="carousel-slide">
+          <span class="carousel-eyebrow">Escuela Hogar de Niños</span>
+          <a href="#programas" class="carousel-link">Ver más ...</a>
+        </div>
+        <div class="carousel-slide">
+          <span class="carousel-eyebrow">Hogar Transitorio</span>
+          <a href="#programas" class="carousel-link">Ver más ...</a>
+        </div>
+        <div class="carousel-slide">
+          <span class="carousel-eyebrow">Cuna Jardín</span>
+          <a href="#programas" class="carousel-link">Ver más ...</a>
+        </div>
+        <div class="carousel-slide">
+          <span class="carousel-eyebrow">Centro de Atención Integral</span>
+          <a href="#programas" class="carousel-link">Ver más ...</a>
+        </div>
+      </div>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </section>
+
+    <section id="inicio" class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-text">
+          <p class="hero-kicker">Desde 1958, junto a las familias de la comunidad</p>
+          <h1>Un techo, una comida caliente, un lugar donde crecer.</h1>
+          <p class="hero-lede">Trabajamos con niñas, niños y familias en situación de vulnerabilidad, ofreciendo educación, salud y acompañamiento para que cada historia tenga la oportunidad de cambiar.</p>
+          <div class="hero-actions">
+            <a href="#contacto" class="btn btn-primary">Quiero colaborar</a>
+            <a href="#programas" class="btn btn-ghost">Conoce los programas</a>
+          </div>
+        </div>
+        <div class="hero-figure" aria-hidden="true">
+          <img src="imagenes/hero-figure.jpg" alt="Docente y estudiantes en el aula">
+        </div>
+      </div>
+    </section>
+
+    <section id="mision" class="mission">
+      <div class="wrap mission-inner">
+        <h2>Nuestra misión</h2>
+        <p>Brindamos atención integral a niñas, niños y familias en riesgo social, proporcionando educación, salud, apoyo psicológico y acompañamiento espiritual, para contribuir a una formación basada en valores y a una mejor calidad de vida para las familias que atendemos.</p>
+      </div>
+    </section>
+
+    <section class="video-section">
+      <div class="wrap">
+        <div class="video-frame">
+          <iframe src="https://www.youtube.com/embed/vIoNbwq3mKM" title="Video institucional" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="programas" class="programs">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Nuestras sedes y programas</h2>
+          <p>Cada sede responde a una etapa distinta de la vida de una familia.</p>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card">
+            <h3>Escuela Hogar de Niñas</h3>
+            <p>Educación básica, alimentación y residencia para niñas en situación de abandono o riesgo familiar.</p>
+          </article>
+          <article class="program-card">
+            <h3>Escuela Hogar de Niños</h3>
+            <p>Formación integral y acompañamiento continuo para niños que requieren un entorno estable.</p>
+          </article>
+          <article class="program-card">
+            <h3>Hogar Transitorio</h3>
+            <p>Atención temporal para familias que atraviesan una crisis mientras se resuelve su situación.</p>
+          </article>
+          <article class="program-card">
+            <h3>Cuna Jardín</h3>
+            <p>Cuidado y estimulación temprana para la primera infancia, mientras las madres trabajan o estudian.</p>
+          </article>
+          <article class="program-card">
+            <h3>Centro de Atención Integral</h3>
+            <p>Salud, nutrición y apoyo psicológico bajo un mismo techo para las familias de la comunidad.</p>
+          </article>
+          <article class="program-card">
+            <h3>Programa de Alianzas</h3>
+            <p>Trabajo conjunto con empresas y voluntarios para sostener cada uno de los programas anteriores.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="impacto" class="impact">
+      <div class="wrap impact-inner">
+        <div class="impact-stat">
+          <span class="stat-number">7</span>
+          <span class="stat-label">sedes activas</span>
+        </div>
+        <div class="impact-stat">
+          <span class="stat-number">60+</span>
+          <span class="stat-label">años de trabajo continuo</span>
+        </div>
+        <div class="impact-stat">
+          <span class="stat-number">300</span>
+          <span class="stat-label">familias acompañadas al año</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <div class="wrap contact-inner">
+        <div class="contact-info">
+          <h2>Hablemos</h2>
+          <p>Escríbenos si quieres donar, ser voluntario o conocer más sobre nuestro trabajo.</p>
+          <ul class="contact-list">
+            <li>Calle Esperanza 250, Miraflores, Lima</li>
+            <li>contacto@fundacionraices.org</li>
+            <li>(01) 719-7998</li>
+          </ul>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/TU_CODIGO_AQUI" method="POST">
+          <label>
+            Nombre
+            <input type="text" name="nombre" required>
+          </label>
+          <label>
+            Correo
+            <input type="email" name="correo" required>
+          </label>
+          <label>
+            Mensaje
+            <textarea name="mensaje" rows="4" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-top">
+      <div class="footer-block">
+        <i class="fa-solid fa-house"></i>
+        <p>Calle Esperanza 250,<br>Miraflores, Lima - Perú</p>
+      </div>
+      <div class="footer-block">
+        <i class="fa-solid fa-envelope"></i>
+        <p>contacto@fundacionraices.org</p>
+      </div>
+      <div class="footer-block">
+        <i class="fa-solid fa-phone"></i>
+        <p>(01) 719-7998</p>
+      </div>
+    </div>
+    <div class="wrap footer-inner">
+      <span>© 2026 Fundación Raíces. Sitio de ejemplo con fines educativos.</span>
+      <nav class="footer-nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#programas">Programas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
